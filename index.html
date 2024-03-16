@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>You love me?❤️ </title>
+        <style> 
+        .body {
+            background-color: crimson;
+            text-align: center;
+
+        }
+        .body__title {
+            color: white ;
+        }
+        .body__img {
+           width: 100%;
+           border-radius: 50%;
+        }
+        </style>
+    </head>
+    
+    <body class="body">
+        <h1 class="body__title"> You love me?❤️</h1>
+        <img src="https://e1.pxfuel.com/desktop-wallpaper/263/768/desktop-wallpaper-panda-bear-bubu-dudu-dudu-bubu-thumbnail.jpg" alt="somos" class="body__img" />
+        <button id ="yes"> Yes, I love u ❤️ </button>
+        <button id = "no"> No, wakala </button>
+        <script>
+            const vutonSi = document.getElementById('yes');
+            const vutonNo = document.getElementById('no');
+
+            const Iloveu = () => {
+                alert('Te quiero bastante Arely ❤️');
+                alert('eres la niña de mis sueños ❤️');
+                location.href = 'https://www.youtube.com/watch?v=O-aavAlSYgc';
+            }
+            const ebitarkcrompamikorason = () => {
+                vutonNo.style.position = 'absolute';
+                vutonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+                vutonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+            }
+
+            vutonSi.addEventListener('click', Iloveu);
+            vutonNo.addEventListener('mouseover', ebitarkcrompamikorason);
+        </script>
+    </body>
+        
+    </body>
+</html>
